@@ -4,7 +4,7 @@
 
 ---
 ## Assignment 1 : Dynamic array 구현 (동적배열)
-
+```
 주어진 소스코드(name.c)를 완성한다.
 - 소스파일에는 함수의 원형(prototype)이 선언되어 있으며, 함수를 직접 정의해야 함
 - main 함수에 있는 주석을 제거하여 실행 파일(name)과 같이 실행되도록 수정해야 함
@@ -14,10 +14,10 @@
 $ ./name -l *.txt > 출력파일명
 $ ./name -b *.txt > 출력파일명
 - 제출파일: name.c (파일명을 수정하지 말 것!)
-
+```
 --- 
 ## Assignment 2 : General list 구현 (동적배열+정렬된(ordered) 선형리스트)
-
+```
 주어진 소스파일(name2.c)을 완성한다.
 - 소스파일에는 함수의 원형(prototype)이 선언되어 있으며, 함수를 직접 정의해야 함
 - main 함수에 있는 주석을 제거하여 실행 파일(name2)과 같이 실행되도록 수정해야 함 (프로그램의 결과는 과제 1과 동일함)
@@ -27,10 +27,10 @@ $ ./name -b *.txt > 출력파일명
 - 과제 설명에 대한 강의는 "강의자료 -> 5주차"에 있음
 - 실행방법: $ ./name2 name2.txt > 출력파일명
 - 제출파일: name2.c (파일명을 수정하지 말 것!)
-- 
+```
 ---
 ## Assignment 3 : General list 구현 (Doubly linked list + 정렬된(ordered) 선형리스트)
-
+```
 주어진 소스파일(name_dlist.c)을 완성한다.
 - 소스파일에는 함수의 원형(prototype)만 선언되어 있으며, 함수를 직접 정의해야 함
 - main 함수에 있는 주석을 제거하여 실행 파일(name_dlist)과 같이 실행되도록 수정해야 함
@@ -50,10 +50,10 @@ $ ./name -b *.txt > 출력파일명
   D : 사용자가 입력한 문자열(이름/성별)을 리스트에서 삭제한다.
   C : 리스트에 포함된 이름(노드)의 수를 출력한다.
 - 제출파일: name_dlist.c (파일명을 수정하지 말 것!)
-
+```
 ---
 ## Assignment 4 : ADT General list 구현 (Doubly linked list + 정렬된(ordered) 선형리스트)
-
+```
 주어진 소스파일(name.c와 adt_dlist.c)을 완성한다.
 - 소스파일에는 함수의 원형(prototype)만 선언되어 있으며, 함수를 직접 정의해야 함
 - main 함수에 있는 주석을 제거하여 실행 파일(name_dlist)과 같이 실행되도록 수정해야 함
@@ -73,10 +73,10 @@ $ ./name -b *.txt > 출력파일명
   D : 사용자가 입력한 문자열(이름/성별)을 리스트에서 삭제한다.
   C : 리스트에 포함된 이름(노드)의 수를 출력한다.
 - 제출파일: adt_dlist.c, adt_dlist.h, name.c, Makefile (파일명을 수정하지 말 것!)
-
+```
 ---
 ## Assignment 5 : binary search tree 구현 (정수자료형)
-
+```
 주어진 소스파일(intbst.c)을 완성한다.
 - 소스파일에는 함수의 원형(prototype)만 선언되어 있으며, 함수를 직접 정의해야 함
 - main 함수에 있는 주석을 제거하여 실행 파일(intbst)과 같이 실행되도록 수정해야 함
@@ -88,10 +88,10 @@ $ ./name -b *.txt > 출력파일명
       $ ./intbst 10
 - 입력 파일은 숫자들의 리스트로 이루어진 텍스트 파일이며, 순서대로 BST에 삽입되어야 함
 - 제출파일: intbst.c (파일명을 수정하지 말 것!)
-
+```
 ---
 ## Assignment 6 : Heap 구현 (추상자료형)
-
+```
 주어진 소스파일(adt_heap.c)를 완성한다.
 - max-heap으로 구현해야 함
 - adt_heap.h에 정의해야 할 함수의 원형(prototype)이 선언되어 있으며, adt_heap.c에 함수를 직접 정의해야 함
@@ -102,10 +102,10 @@ $ ./name -b *.txt > 출력파일명
 - 실행 방법: ./run_str_heap 파일명
           예) ./run_str_heap names.txt
 - 제출 파일: 모든 소스코드(adt_heap.c, adt_heap.h, run_int_heap.c, run_str_heap.c)와 Makefile
-
+```
 ---
 ## Assignment 7 : AVL Tree 구현 (문자열 자료형)
-
+```
 주어진 소스파일(stravlt.c)을 완성한다.
 - 소스파일에는 함수의 원형(prototype)만 선언되어 있으며, 함수를 직접 정의해야 함
 - main 함수에 있는 주석을 제거하여 실행 파일(stravlt)과 같이 실행되도록 수정해야 함
@@ -117,10 +117,10 @@ $ ./name -b *.txt > 출력파일명
 #define SHOW_STEP 0
 #define BALANCING 1
 - 제출파일: stravlt.c (파일명을 수정하지 말 것!)
-
+```
 ---
 ## Assignment 8 : Trie 구현
-
+```
 주어진 소스파일(trie.c 또는 permuterm_trie.c) 중 하나를 완성한다.
 - 소스파일에는 함수의 원형(prototype)만 선언되어 있으며, 함수를 직접 정의해야 함
 - main 함수에 있는 주석을 제거하여 실행 파일(trie 또는 permuterm_trie)과 같이 실행되도록 수정해야 함
@@ -131,3 +131,4 @@ $ ./name -b *.txt > 출력파일명
 $ ./trie words_ordered.txt
 $ ./permuterm_trie words_ordered.txt
 - 제출파일: trie.c 또는 permuterm_trie.c (둘 중 하나만 제출하면 됨)
+```
